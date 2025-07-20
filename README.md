@@ -20,7 +20,10 @@ To compile the code from scratch :
    > g++ game.cpp -Iinclude -Llib -lraylib -lopengl32 -lgdi32 -lwinmm -o game.exe -static -static-libgcc -static-libstdc++ -Wl,--subsystem,windows
 
 THIS COMMAND STATICALLY LINKS ALL RAYLIB HEADER FILES AND LIBRAYLIB.a FILES to create a single exe that doesn't open up the console.
+
 ## RUN THE ABOVE COMMAND ONLY IN COMMAND PROMPT
+
+## YOU CAN ALSO USE THE GO.BAT FILE INCLUDED WITH THE SOURCE.zip TO COMPILE WITH JUST A CLICK !
 
 # DEPENDENCY\
 1. winlibs g++ for x64 systems
