@@ -34,6 +34,9 @@ const vector<Vector2> player_icon_position = {Vector2{135,70}, Vector2{270,70}, 
 
 };
 
+/* INITIAL PLAYER SHOULD BE X, THAT IS WHY PLAYER NUMBER 
+IS SET TO 2 SO THAT WHEN GAME FUNCTION RUNS, IT SETS IT TO 1 i.e 'X' */
+
 int player_number = 2;
 int game(void){
 
