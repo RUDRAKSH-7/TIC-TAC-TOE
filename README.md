@@ -18,6 +18,7 @@ To compile the code from scratch :
 1. Keep the include and Lib folder and its file in the same folder as the source code.
 2. Enter the following command :
    > g++ game.cpp -Iinclude -Llib -lraylib -lopengl32 -lgdi32 -lwinmm -o game.exe -static -static-libgcc -static-libstdc++ -Wl,--subsystem,windows
+
 THIS COMMAND STATICALLY LINKS ALL RAYLIB HEADER FILES AND LIBRAYLIB.a FILES to create a single exe that doesn't open up the console.
 ## RUN THE ABOVE COMMAND ONLY IN COMMAND PROMPT
 
